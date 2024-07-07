@@ -1,0 +1,21 @@
+getgenv().auraX = {
+    ['Whitelist'] = {
+        ['Key'] = 'script_key'
+    },
+    ['Settings'] = {
+        ['Enabled'] = true, --// Leave this true
+        ['Key'] = "c", --// Keybind to lock
+        ['Dot'] = true, --// Show the actual dot
+        ['Airshot'] = true, --// Airshot function
+        ['Notif'] = true, --// Show notifications when locking
+        ['Autopred'] = false, --// Changes prediction based on ping
+        ['Fov'] = math.huge, --// Field of view
+        ['Resolver'] = false --// Resolver
+    },
+    ['Camlock'] = {
+        ['Enabled'] = true, --// Enable/Disable camlock
+        ['Part'] = "UpperTorso", --// Part to follow
+        ['Smoothness'] = 0.305, --// Smoothness factor for camlock
+        ['Prediction'] = 0.208467 --// Prediction value for camlock
+    }
+}
